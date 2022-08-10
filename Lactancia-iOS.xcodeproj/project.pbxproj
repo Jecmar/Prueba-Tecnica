@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5AA44C128A370E900C3B0F4 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = A5AA44C028A370E900C3B0F4 /* SwiftyJSON */; };
+		A5AA44C428A3720900C3B0F4 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = A5AA44C328A3720900C3B0F4 /* SDWebImageSwiftUI */; };
+		A5AA44C628A372A200C3B0F4 /* ListNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AA44C528A372A200C3B0F4 /* ListNews.swift */; };
+		A5AA44C928A3737700C3B0F4 /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AA44C828A3737700C3B0F4 /* NewsModel.swift */; };
+		A5AA44CC28A3752600C3B0F4 /* getNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AA44CB28A3752600C3B0F4 /* getNews.swift */; };
+		A5AA44CF28A38D5800C3B0F4 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AA44CE28A38D5800C3B0F4 /* ImagePicker.swift */; };
+		A5AA44D228A3A3BE00C3B0F4 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AA44D128A3A3BE00C3B0F4 /* WebView.swift */; };
+		A5AA44D428A3A7C700C3B0F4 /* NewsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AA44D328A3A7C700C3B0F4 /* NewsCard.swift */; };
+		A5AA44D628A3F41C00C3B0F4 /* EditBaby.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AA44D528A3F41C00C3B0F4 /* EditBaby.swift */; };
+		A5AA44D928A408FB00C3B0F4 /* NewsModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A5AA44D728A408FB00C3B0F4 /* NewsModel.xcdatamodeld */; };
+		A5AA44DB28A4096800C3B0F4 /* NewsDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AA44DA28A4096800C3B0F4 /* NewsDataController.swift */; };
+		A5B6F7B728A335D300E95CF8 /* Lactancia_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B6F7B628A335D300E95CF8 /* Lactancia_iOSApp.swift */; };
+		A5B6F7B928A335D300E95CF8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B6F7B828A335D300E95CF8 /* HomeView.swift */; };
+		A5B6F7BB28A335D400E95CF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5B6F7BA28A335D400E95CF8 /* Assets.xcassets */; };
+		A5B6F7BE28A335D400E95CF8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5B6F7BD28A335D400E95CF8 /* Preview Assets.xcassets */; };
+		A5B6F7C928A3365500E95CF8 /* BabyModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A5B6F7C728A3365500E95CF8 /* BabyModel.xcdatamodeld */; };
+		A5B6F7CF28A3395800E95CF8 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B6F7CE28A3395800E95CF8 /* DataController.swift */; };
+		A5B6F7D228A33A1A00E95CF8 /* NavigationBarModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B6F7D128A33A1A00E95CF8 /* NavigationBarModifier.swift */; };
+		A5B6F7D428A33A4C00E95CF8 /* MyBaby.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B6F7D328A33A4C00E95CF8 /* MyBaby.swift */; };
+		A5B6F7D628A33A6F00E95CF8 /* ListBabies.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B6F7D528A33A6F00E95CF8 /* ListBabies.swift */; };
+		A5B6F7D828A33A8100E95CF8 /* AddBaby.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B6F7D728A33A8100E95CF8 /* AddBaby.swift */; };
+		A5B6F7DB28A33A9C00E95CF8 /* TextFieldCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B6F7DA28A33A9C00E95CF8 /* TextFieldCustom.swift */; };
+		A5B6F7DD28A33ABF00E95CF8 /* SelectButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B6F7DC28A33ABF00E95CF8 /* SelectButtons.swift */; };
+		A5B6F7DF28A33B5100E95CF8 /* DatePickerCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B6F7DE28A33B5100E95CF8 /* DatePickerCustom.swift */; };
+		A5B6F7E128A33B8400E95CF8 /* AddBabyRequestBaby.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B6F7E028A33B8400E95CF8 /* AddBabyRequestBaby.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A5AA44C528A372A200C3B0F4 /* ListNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNews.swift; sourceTree = "<group>"; };
+		A5AA44C828A3737700C3B0F4 /* NewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
+		A5AA44CB28A3752600C3B0F4 /* getNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getNews.swift; sourceTree = "<group>"; };
+		A5AA44CE28A38D5800C3B0F4 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		A5AA44D128A3A3BE00C3B0F4 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		A5AA44D328A3A7C700C3B0F4 /* NewsCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCard.swift; sourceTree = "<group>"; };
+		A5AA44D528A3F41C00C3B0F4 /* EditBaby.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditBaby.swift; sourceTree = "<group>"; };
+		A5AA44D828A408FB00C3B0F4 /* NewsModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NewsModel.xcdatamodel; sourceTree = "<group>"; };
+		A5AA44DA28A4096800C3B0F4 /* NewsDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDataController.swift; sourceTree = "<group>"; };
+		A5B6F7B328A335D300E95CF8 /* Lactancia-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lactancia-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5B6F7B628A335D300E95CF8 /* Lactancia_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lactancia_iOSApp.swift; sourceTree = "<group>"; };
+		A5B6F7B828A335D300E95CF8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A5B6F7BA28A335D400E95CF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5B6F7BD28A335D400E95CF8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A5B6F7C828A3365500E95CF8 /* BabyModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BabyModel.xcdatamodel; sourceTree = "<group>"; };
+		A5B6F7CE28A3395800E95CF8 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		A5B6F7D128A33A1A00E95CF8 /* NavigationBarModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarModifier.swift; sourceTree = "<group>"; };
+		A5B6F7D328A33A4C00E95CF8 /* MyBaby.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBaby.swift; sourceTree = "<group>"; };
+		A5B6F7D528A33A6F00E95CF8 /* ListBabies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListBabies.swift; sourceTree = "<group>"; };
+		A5B6F7D728A33A8100E95CF8 /* AddBaby.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBaby.swift; sourceTree = "<group>"; };
+		A5B6F7DA28A33A9C00E95CF8 /* TextFieldCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCustom.swift; sourceTree = "<group>"; };
+		A5B6F7DC28A33ABF00E95CF8 /* SelectButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectButtons.swift; sourceTree = "<group>"; };
+		A5B6F7DE28A33B5100E95CF8 /* DatePickerCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerCustom.swift; sourceTree = "<group>"; };
+		A5B6F7E028A33B8400E95CF8 /* AddBabyRequestBaby.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBabyRequestBaby.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5B6F7B028A335D300E95CF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5AA44C428A3720900C3B0F4 /* SDWebImageSwiftUI in Frameworks */,
+				A5AA44C128A370E900C3B0F4 /* SwiftyJSON in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5AA44C728A3736300C3B0F4 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				A5AA44CA28A3737B00C3B0F4 /* Model */,
+				A5B6F7C428A3362900E95CF8 /* DataController */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		A5AA44CA28A3737B00C3B0F4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A5AA44C828A3737700C3B0F4 /* NewsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A5AA44D028A3A3AA00C3B0F4 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A5AA44D128A3A3BE00C3B0F4 /* WebView.swift */,
+				A5AA44D328A3A7C700C3B0F4 /* NewsCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A5B6F7AA28A335D200E95CF8 = {
+			isa = PBXGroup;
+			children = (
+				A5B6F7B528A335D300E95CF8 /* Lactancia-iOS */,
+				A5B6F7B428A335D300E95CF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5B6F7B428A335D300E95CF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5B6F7B328A335D300E95CF8 /* Lactancia-iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5B6F7B528A335D300E95CF8 /* Lactancia-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A5B6F7C628A3363B00E95CF8 /* Helpers */,
+				A5B6F7C528A3363200E95CF8 /* Views */,
+				A5AA44C728A3736300C3B0F4 /* Data */,
+				A5B6F7B628A335D300E95CF8 /* Lactancia_iOSApp.swift */,
+				A5B6F7BA28A335D400E95CF8 /* Assets.xcassets */,
+				A5B6F7BC28A335D400E95CF8 /* Preview Content */,
+			);
+			path = "Lactancia-iOS";
+			sourceTree = "<group>";
+		};
+		A5B6F7BC28A335D400E95CF8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A5B6F7BD28A335D400E95CF8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A5B6F7C428A3362900E95CF8 /* DataController */ = {
+			isa = PBXGroup;
+			children = (
+				A5B6F7C728A3365500E95CF8 /* BabyModel.xcdatamodeld */,
+				A5B6F7CE28A3395800E95CF8 /* DataController.swift */,
+				A5AA44D728A408FB00C3B0F4 /* NewsModel.xcdatamodeld */,
+				A5AA44DA28A4096800C3B0F4 /* NewsDataController.swift */,
+			);
+			path = DataController;
+			sourceTree = "<group>";
+		};
+		A5B6F7C528A3363200E95CF8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A5B6F7CB28A3392A00E95CF8 /* Home */,
+				A5B6F7CC28A3392E00E95CF8 /* Baby */,
+				A5B6F7CA28A3392600E95CF8 /* News */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A5B6F7C628A3363B00E95CF8 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A5B6F7E028A33B8400E95CF8 /* AddBabyRequestBaby.swift */,
+				A5AA44CB28A3752600C3B0F4 /* getNews.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		A5B6F7CA28A3392600E95CF8 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				A5AA44D028A3A3AA00C3B0F4 /* Components */,
+				A5AA44C528A372A200C3B0F4 /* ListNews.swift */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		A5B6F7CB28A3392A00E95CF8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A5B6F7D028A339F800E95CF8 /* Components */,
+				A5B6F7B828A335D300E95CF8 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A5B6F7CC28A3392E00E95CF8 /* Baby */ = {
+			isa = PBXGroup;
+			children = (
+				A5B6F7D928A33A8500E95CF8 /* Components */,
+				A5B6F7D328A33A4C00E95CF8 /* MyBaby.swift */,
+				A5B6F7D528A33A6F00E95CF8 /* ListBabies.swift */,
+				A5B6F7D728A33A8100E95CF8 /* AddBaby.swift */,
+				A5AA44D528A3F41C00C3B0F4 /* EditBaby.swift */,
+			);
+			path = Baby;
+			sourceTree = "<group>";
+		};
+		A5B6F7D028A339F800E95CF8 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A5B6F7D128A33A1A00E95CF8 /* NavigationBarModifier.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A5B6F7D928A33A8500E95CF8 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A5B6F7DA28A33A9C00E95CF8 /* TextFieldCustom.swift */,
+				A5B6F7DC28A33ABF00E95CF8 /* SelectButtons.swift */,
+				A5B6F7DE28A33B5100E95CF8 /* DatePickerCustom.swift */,
+				A5AA44CE28A38D5800C3B0F4 /* ImagePicker.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5B6F7B228A335D300E95CF8 /* Lactancia-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5B6F7C128A335D400E95CF8 /* Build configuration list for PBXNativeTarget "Lactancia-iOS" */;
+			buildPhases = (
+				A5B6F7AF28A335D300E95CF8 /* Sources */,
+				A5B6F7B028A335D300E95CF8 /* Frameworks */,
+				A5B6F7B128A335D300E95CF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lactancia-iOS";
+			packageProductDependencies = (
+				A5AA44C028A370E900C3B0F4 /* SwiftyJSON */,
+				A5AA44C328A3720900C3B0F4 /* SDWebImageSwiftUI */,
+			);
+			productName = "Lactancia-iOS";
+			productReference = A5B6F7B328A335D300E95CF8 /* Lactancia-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5B6F7AB28A335D200E95CF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					A5B6F7B228A335D300E95CF8 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = A5B6F7AE28A335D200E95CF8 /* Build configuration list for PBXProject "Lactancia-iOS" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5B6F7AA28A335D200E95CF8;
+			packageReferences = (
+				A5AA44BF28A370E900C3B0F4 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				A5AA44C228A3720900C3B0F4 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
+			productRefGroup = A5B6F7B428A335D300E95CF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5B6F7B228A335D300E95CF8 /* Lactancia-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5B6F7B128A335D300E95CF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5B6F7BE28A335D400E95CF8 /* Preview Assets.xcassets in Resources */,
+				A5B6F7BB28A335D400E95CF8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5B6F7AF28A335D300E95CF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5AA44D428A3A7C700C3B0F4 /* NewsCard.swift in Sources */,
+				A5B6F7D228A33A1A00E95CF8 /* NavigationBarModifier.swift in Sources */,
+				A5B6F7B928A335D300E95CF8 /* HomeView.swift in Sources */,
+				A5AA44DB28A4096800C3B0F4 /* NewsDataController.swift in Sources */,
+				A5B6F7D628A33A6F00E95CF8 /* ListBabies.swift in Sources */,
+				A5B6F7CF28A3395800E95CF8 /* DataController.swift in Sources */,
+				A5AA44CC28A3752600C3B0F4 /* getNews.swift in Sources */,
+				A5AA44CF28A38D5800C3B0F4 /* ImagePicker.swift in Sources */,
+				A5AA44D628A3F41C00C3B0F4 /* EditBaby.swift in Sources */,
+				A5B6F7DF28A33B5100E95CF8 /* DatePickerCustom.swift in Sources */,
+				A5B6F7D428A33A4C00E95CF8 /* MyBaby.swift in Sources */,
+				A5B6F7C928A3365500E95CF8 /* BabyModel.xcdatamodeld in Sources */,
+				A5B6F7DB28A33A9C00E95CF8 /* TextFieldCustom.swift in Sources */,
+				A5AA44D928A408FB00C3B0F4 /* NewsModel.xcdatamodeld in Sources */,
+				A5AA44C928A3737700C3B0F4 /* NewsModel.swift in Sources */,
+				A5AA44D228A3A3BE00C3B0F4 /* WebView.swift in Sources */,
+				A5B6F7B728A335D300E95CF8 /* Lactancia_iOSApp.swift in Sources */,
+				A5AA44C628A372A200C3B0F4 /* ListNews.swift in Sources */,
+				A5B6F7E128A33B8400E95CF8 /* AddBabyRequestBaby.swift in Sources */,
+				A5B6F7D828A33A8100E95CF8 /* AddBaby.swift in Sources */,
+				A5B6F7DD28A33ABF00E95CF8 /* SelectButtons.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A5B6F7BF28A335D400E95CF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A5B6F7C028A335D400E95CF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5B6F7C228A335D400E95CF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lactancia-iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 7AW75X5S95;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jecmardev.Lactancia-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A5B6F7C328A335D400E95CF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lactancia-iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 7AW75X5S95;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jecmardev.Lactancia-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5B6F7AE28A335D200E95CF8 /* Build configuration list for PBXProject "Lactancia-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5B6F7BF28A335D400E95CF8 /* Debug */,
+				A5B6F7C028A335D400E95CF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5B6F7C128A335D400E95CF8 /* Build configuration list for PBXNativeTarget "Lactancia-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5B6F7C228A335D400E95CF8 /* Debug */,
+				A5B6F7C328A335D400E95CF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A5AA44BF28A370E900C3B0F4 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		A5AA44C228A3720900C3B0F4 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A5AA44C028A370E900C3B0F4 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A5AA44BF28A370E900C3B0F4 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+		A5AA44C328A3720900C3B0F4 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A5AA44C228A3720900C3B0F4 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		A5AA44D728A408FB00C3B0F4 /* NewsModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A5AA44D828A408FB00C3B0F4 /* NewsModel.xcdatamodel */,
+			);
+			currentVersion = A5AA44D828A408FB00C3B0F4 /* NewsModel.xcdatamodel */;
+			path = NewsModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		A5B6F7C728A3365500E95CF8 /* BabyModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A5B6F7C828A3365500E95CF8 /* BabyModel.xcdatamodel */,
+			);
+			currentVersion = A5B6F7C828A3365500E95CF8 /* BabyModel.xcdatamodel */;
+			path = BabyModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A5B6F7AB28A335D200E95CF8 /* Project object */;
+}
